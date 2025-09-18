@@ -69,7 +69,7 @@ bundle install
 git clone https://github.com/Madzy27-Ys/THP-W3D4-Scrapper.git
 
 # Access
-cd thp
+cd lib
 
 # Run the crypto scraper
 ruby crypto_scraper.rb
