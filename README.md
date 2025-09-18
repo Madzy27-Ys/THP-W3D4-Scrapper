@@ -2,13 +2,13 @@
   <img src="./.github/app.gif" alt="THP" />
 </div>
 
-<h1 align="center">THP - Ruby Web Scraping</h1>
+<h1 align="center">THP - Ruby Scraping</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/thp?color=56BEB8">
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{YOUR_GITHUB_USERNAME}}/thp?color=56BEB8">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{YOUR_GITHUB_USERNAME}}/thp?color=56BEB8">
-  <img alt="License" src="https://img.shields.io/github/license/{{YOUR_GITHUB_USERNAME}}/thp?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/Madzy27-Ys/THP-W3D4-Scrapper?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/Madzy27-Ys/THP-W3D4-Scrapper?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Madzy27-Ys/THP-W3D4-Scrapper?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/Madzy27-Ys/THP-W3D4-Scrapper?color=56BEB8">
 </p>
 
 <p align="center">
@@ -18,7 +18,7 @@
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
+  <a href="https://github.com/Madzy27-Ys" target="_blank">Author</a>
 </p>
 
 <br>
@@ -64,8 +64,9 @@ Before starting, you need to have:
 ```bash
 bundle install
 
+
 # Clone this project
-git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/thp
+git clone https://github.com/Madzy27-Ys/THP-W3D4-Scrapper.git
 
 # Access
 cd thp
