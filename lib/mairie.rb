@@ -2,23 +2,20 @@ require 'open-uri'
 require 'nokogiri'
 require 'http'
 
-# URL de la page listant toutes les mairies du Val d'Oise
+# page des mails
 listing_url = "https://lannuaire.service-public.fr/navigation/ile-de-france/val-d-oise/mairie"
 
-# Tableau pour stocker les résultats
 townhall_emails = []
 
-# Ouvrir la page principale et récupérer tous les liens vers les mairies
 listing_page = Nokogiri::HTML(URI.open(listing_url))
 links = listing_page.xpath('//*[@id="main"]/div/div/div/article/div[3]/ul//a')
 
-# Pour chaque mairie
+# Pour chaque mairie ->
 links.each do |link|
   href = link['href']
   # Construire l'URL complète si nécessaire
   url = href.start_with?('http') ? href : "https://lannuaire.service-public.fr#{href}"
 
-  # Ouvrir la page de la mairie
   town_page = Nokogiri::HTML(URI.open(url))
 
   # Récupérer le nom de la ville et l'email
